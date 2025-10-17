@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS 
+/*#define _CRT_SECURE_NO_WARNINGS 
 #include <stdio.h> 
 #include <stdlib.h> 
 #define maxbodovi 120 
@@ -69,4 +69,4 @@ void ispis(stud* studenti, int broj) {
 		double relativni = (double)studenti[i].bodovi / maxbodovi * 100; 
 		printf("\nime: %s\nprezime: %s\nbodovi: %d\n relativni bodovi: %lf\n", studenti[i].ime, studenti[i].prezime, studenti[i].bodovi, relativni); 
 	} 
-}
+}*/

@@ -47,7 +47,7 @@ int main() {
 
 	printf("\nosoba br 3.:");
 	Person* P3 = insert();
-	End(Head.next, P3);
+	Start(Head.next, P3);
 
 	printf("\nosoba br 4.:");
 	Person* P4 = insert();

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B8317C4-566C-4748-992A-0C863E4EDF3D}|zad4\\zad4.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad4\\zad4\\zad4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6B8317C4-566C-4748-992A-0C863E4EDF3D}|zad4\\zad4.vcxproj|solutionrelative:zad4\\zad4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{11874494-BF88-4089-A8DB-265CCEC1B28D}|zad4\\zad4.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad4\\zad4\\zad4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{11874494-BF88-4089-A8DB-265CCEC1B28D}|zad4\\zad4.vcxproj|solutionrelative:zad4\\zad4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +24,9 @@
               "RelativeDocumentMoniker": "zad4\\zad4.c",
               "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad4\\zad4\\zad4.c",
               "RelativeToolTip": "zad4\\zad4.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-11-07T22:22:21.762Z",
+              "WhenOpened": "2025-11-13T18:18:34.135Z",
               "EditorCaption": ""
             }
           ]

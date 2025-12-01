@@ -1,0 +1,9 @@
+2025-07-09
+ulje 3 2.20
+brasno 2 0.80
+pivo 4 1.30
+pasta 2.80
+sampon 4.30
+jogurt 3 0.75
+prsut 2 7.90
+cips 1 1.90

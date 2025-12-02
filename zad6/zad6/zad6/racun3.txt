@@ -4,6 +4,6 @@ mlijeko 6 1.10
 keksi 1 2.60
 kava 2 5.10
 sapun 2 0.80
-riza 2.20
+riza 1 2.20
 kruh 2 1.30
 mljeveno 2 6.80

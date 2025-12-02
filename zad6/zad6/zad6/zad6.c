@@ -105,7 +105,7 @@ int main() {
 				printf("\nartikl %s nije pronaden", name);
 		}break;
 		case 0:
-			printf("\nizlaz");
+			printf("\nizasli ste iz programa.");
 			break;
 		default:
 			printf("\novaj broj nije ni jedna opcija\n");

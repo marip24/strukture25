@@ -28,13 +28,13 @@ Bill billFromFile(const char* name);
 int sortBill(billList* list, Bill fresh);
 int freeBill(billList* list);
 
-int findArticle(billList* list, const char* name, const char* from1, const char* till1, double* wPrice, int* wAmount); //w-whole
-Articles priciest(billList* list);
-Articles cheapest(billList* list);
+int findArticle(billList* list);
+int priciest(billList* list);
+int cheapest(billList* list);
 int mostCommon(billList* list);
 int rarest(billList* list);
-double total(billList* list);
+int total(billList* list);
 int printAllArticlesSorted(billList* list);
-Articles maxConsumption(billList* list);
-Articles minConsumption(billList* list);
-double averagePrice(billList* list, const char* name);
+int maxConsumption(billList* list);
+int minConsumption(billList* list);
+int averagePrice(billList* list);

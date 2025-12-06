@@ -40,6 +40,7 @@ Bill billFromFile(const char* name) {
 		Articles x = newArticle(sort, amount, price);
 		sortedArticle(p->articles, x);
 	}
+	fclose(fp);
 	return p;
 }
 
@@ -71,28 +72,41 @@ int freeBill(billList* list) {
 	return 0;
 }
 
-int findArticle(billList* list, const char* name, const char* from1, const char* till1, double* wPrice, int* wAmount){ //w-whole 
-	Date from = readDate(from1);
-	Date till = readDate(till1);
+int findArticle(billList* list){
+	char name2[61];
+	char fromDate[20];
+	char tillDate[20];
+	double wholePrice = 0;
+	int wholeAmount = 0;
+	printf("\nunesi naziv artikla: ");
+	scanf(" %60s", name2);
+	printf("\nunesi pocetni datum (YYYY-MM-DD): ");
+	scanf(" %19s", fromDate);
+	printf("\nunesi krajnji datum (YYYY-MM-DD): ");
+	scanf(" %19s", tillDate);
+	Date from = readDate(fromDate);
+	Date till = readDate(tillDate);
 	Bill p = list->First;
 	Articles x;
 	while (p) {
 		if (compareDates(p->date, from) >= 0 && compareDates(p->date, till) <= 0) {
 			x = p->articles->First;
 			while (x) {
-				if (strcmp(x->sort, name) == 0) {
-					*wAmount += x->amount;
-					*wPrice += x->amount * x->price;
+				if (strcmp(x->sort, name2) == 0) {
+					wholeAmount += x->amount;
+					wholePrice += x->amount * x->price;
 				}
 				x = x->Next;
 			}
 		}
 		p = p->Next;
 	}
-	return 1;
+	printf("\nkupljeno je ukupno %d komada\n", wholeAmount);
+	printf("\nukupno je potroseno %.2lf\n", wholePrice);
+	return 0;
 }
 
-Articles priciest(billList* list) {
+int priciest(billList* list) {
 	Bill p = list->First;
 	Articles max = NULL;
 	Articles x;
@@ -105,10 +119,12 @@ Articles priciest(billList* list) {
 		}
 		p = p->Next;
 	}
-	return max;
+	if (max)
+		printf("\nnajskuplji artikl je %s, a cijena mu je %.2lf\n", max->sort, max->price);
+	return 0;
 }
 
-Articles cheapest(billList* list) {
+int cheapest(billList* list) {
 	Bill p = list->First;
 	Articles min = NULL;
 	Articles x;
@@ -121,7 +137,9 @@ Articles cheapest(billList* list) {
 		}
 		p = p->Next;
 	}
-	return min;
+	if (min)
+		printf("\nnajjeftiniji artikl je %s, a cijena mu je %.2lf\n", min->sort, min->price);
+	return 0;
 }
 
 int mostCommon(billList* list) {
@@ -152,7 +170,7 @@ int mostCommon(billList* list) {
 		}
 		p = p->Next;
 	}
-	printf("Najcesci artikl je %s, akolicina je %d\n", maxName, maxAmount);
+	printf("\nNajcesci artikl je %s, akolicina je %d\n", maxName, maxAmount);
 	return 0;
 }
 int rarest(billList* list) {
@@ -183,10 +201,10 @@ int rarest(billList* list) {
 		}
 		p = p->Next;
 	}
-	printf("Najrjedi artikl je %s, akolicina je %d\n", minName, minAmount);
+	printf("\nNajrjedi artikl je %s, a kolicina je %d\n", minName, minAmount);
 	return 0;
 }
-double total(billList* list) {
+int total(billList* list) {
 	double all = 0;
 	Bill p = list->First;
 	Articles x;
@@ -198,7 +216,8 @@ double total(billList* list) {
 		}
 		p = p->Next;
 	}
-	return all;
+	printf("\nukupna potrosnja svih racuna je %.2lf\n", all);
+	return 0;
 }
 
 int printAllArticlesSorted(billList* list) {
@@ -231,7 +250,7 @@ int printAllArticlesSorted(billList* list) {
 	return 0;
 }
 
-Articles maxConsumption(billList* list) {
+int maxConsumption(billList* list) {
 	Bill p = list->First;
 	Articles result = NULL;
 	Articles x;
@@ -249,10 +268,12 @@ Articles maxConsumption(billList* list) {
 		}
 		p = p->Next;
 	}
-	return result;
+	if (result)
+		printf("\nartikl s najvecom potrosnjom je %s, a ona iznosi %.2lf\n", result->sort, result->amount * result->price);
+	return 0;
 }
 
-Articles minConsumption(billList* list) {
+int minConsumption(billList* list) {
 	Bill p = list->First;
 	Articles result = NULL;
 	Articles x;
@@ -270,14 +291,20 @@ Articles minConsumption(billList* list) {
 		}
 		p = p->Next;
 	}
-	return result;
+	if (result)
+		printf("\nartikl s najmanjom potrosnjom je %s, a ona iznosi %.2lf\n", result->sort, result->amount *result->price);
+	return 0;
 }
 
-double averagePrice(billList* list, const char* name) {
+int averagePrice(billList* list) {
 	Bill p = list->First;
 	int totalAmount = 0;
 	double totalPrice = 0;
+	double average=0;
 	Articles x;
+	char name[61];
+	printf("\nunesi naziv artikla: ");
+	scanf(" %60s", name);
 	while (p) {
 		x = p->articles->First;
 		while (x) {
@@ -291,5 +318,10 @@ double averagePrice(billList* list, const char* name) {
 	}
 	if (totalAmount == 0)
 		return 0;
-	return totalPrice / totalAmount;
+	average = totalPrice / totalAmount;
+	if (average > 0)
+		printf("\nprosjecna cijena artikla %s je %.2lf\n", name, average);
+	else
+		printf("\nartikl %s nije pronaden\n", name);
+	return 0;
 }

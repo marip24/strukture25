@@ -47,30 +47,13 @@ int main() {
 
 		switch (choice) {
 		case 1: {
-			char name[61];
-			char fromDate[20];
-			char tillDate[20];
-			double wholePrice = 0;
-			int wholeAmount = 0;
-			printf("\nunesi naziv artikla: ");
-			scanf(" %60s", name);
-			printf("\nunesi pocetni datum (YYYY-MM-DD): ");
-			scanf(" %19s", fromDate);
-			printf("\nunesi krajnji datum (YYYY-MM-DD): ");
-			scanf(" %19s", tillDate);
-			findArticle(list, name, fromDate, tillDate, &wholePrice, &wholeAmount);
-			printf("\nkupljeno je ukupno %d komada\n", wholeAmount);
-			printf("\nukupno je potroseno %.2lf\n", wholePrice);
+			findArticle(list);
 		}break;
 		case 2: {
-			Articles x = priciest(list);
-			if (x)
-				printf("\nnajskuplji artikl je %s, a cijena mu je %.2lf", x->sort, x->price);
+			priciest(list);
 		}break;
 		case 3: {
-			Articles x = cheapest(list);
-			if (x)
-				printf("\nnajjeftiniji artikl je %s, a cijena mu je %.2lf", x->sort, x->price);
+			cheapest(list);
 		}break;
 		case 4:
 			mostCommon(list);
@@ -79,30 +62,19 @@ int main() {
 			rarest(list);
 			break;
 		case 6:
-			printf("\nukupna potrosnja svih racuna je %.2lf", total(list));
+			total(list);
 			break;
 		case 7:
 			printAllArticlesSorted(list);
 			break;
 		case 8: {
-			Articles x = maxConsumption(list);
-			if (x)
-				printf("\nartikl s najvecom potrosnjom je %s, a ona iznosi %.2lf", x->sort, x->amount*x->price);
+			maxConsumption(list);
 		}break;
 		case 9: {
-			Articles x = minConsumption(list);
-			if (x)
-				printf("\nartikl s najmanjom potrosnjom je %s, a ona iznosi %.2lf", x->sort, x->amount * x->price);
+			minConsumption(list);
 		}break;
 		case 10:{
-			char name[61];
-			printf("\nunesi naziv artikla: ");
-			scanf(" %60s", name);
-			double average = averagePrice(list, name);
-			if (average > 0)
-				printf("\nprosjecna cijena artikla %s je %.2lf", name, average);
-			else
-				printf("\nartikl %s nije pronaden", name);
+			averagePrice(list);
 		}break;
 		case 0:
 			printf("\nizasli ste iz programa.");

@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{E8A66B89-8BDC-4DC0-A7D2-073F7ACAA1AE}|zad6\\zad6.vcxproj|solutionrelative:zad6\\zad6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8A66B89-8BDC-4DC0-A7D2-073F7ACAA1AE}|zad6\\zad6.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad6\\zad6\\zad6\\artikl.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E8A66B89-8BDC-4DC0-A7D2-073F7ACAA1AE}|zad6\\zad6.vcxproj|solutionrelative:zad6\\artikl.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8A66B89-8BDC-4DC0-A7D2-073F7ACAA1AE}|zad6\\zad6.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad6\\zad6\\zad6\\artikl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E8A66B89-8BDC-4DC0-A7D2-073F7ACAA1AE}|zad6\\zad6.vcxproj|solutionrelative:zad6\\artikl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8A66B89-8BDC-4DC0-A7D2-073F7ACAA1AE}|zad6\\zad6.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad6\\zad6\\zad6\\racuni.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E8A66B89-8BDC-4DC0-A7D2-073F7ACAA1AE}|zad6\\zad6.vcxproj|solutionrelative:zad6\\racuni.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8A66B89-8BDC-4DC0-A7D2-073F7ACAA1AE}|zad6\\zad6.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad6\\zad6\\zad6\\racuni.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E8A66B89-8BDC-4DC0-A7D2-073F7ACAA1AE}|zad6\\zad6.vcxproj|solutionrelative:zad6\\racuni.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A66B89-8BDC-4DC0-A7D2-073F7ACAA1AE}|zad6\\zad6.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad6\\zad6\\zad6\\artikl.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8A66B89-8BDC-4DC0-A7D2-073F7ACAA1AE}|zad6\\zad6.vcxproj|solutionrelative:zad6\\artikl.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A66B89-8BDC-4DC0-A7D2-073F7ACAA1AE}|zad6\\zad6.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad6\\zad6\\zad6\\artikl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8A66B89-8BDC-4DC0-A7D2-073F7ACAA1AE}|zad6\\zad6.vcxproj|solutionrelative:zad6\\artikl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,51 +34,55 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "artikl.h",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad6\\zad6\\zad6\\artikl.h",
               "RelativeDocumentMoniker": "zad6\\artikl.h",
               "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad6\\zad6\\zad6\\artikl.h",
               "RelativeToolTip": "zad6\\artikl.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-30T20:24:10.822Z"
+              "WhenOpened": "2025-11-30T20:24:10.822Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "artikl.c",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad6\\zad6\\zad6\\artikl.c",
               "RelativeDocumentMoniker": "zad6\\artikl.c",
               "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad6\\zad6\\zad6\\artikl.c",
               "RelativeToolTip": "zad6\\artikl.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwCkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-11-30T20:23:58.031Z"
+              "WhenOpened": "2025-11-30T20:23:58.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "racuni.h",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad6\\zad6\\zad6\\racuni.h",
               "RelativeDocumentMoniker": "zad6\\racuni.h",
               "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad6\\zad6\\zad6\\racuni.h",
               "RelativeToolTip": "zad6\\racuni.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-13T18:37:02.046Z"
+              "WhenOpened": "2025-11-13T18:37:02.046Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "racuni.c",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad6\\zad6\\zad6\\racuni.c",
               "RelativeDocumentMoniker": "zad6\\racuni.c",
               "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad6\\zad6\\zad6\\racuni.c",
               "RelativeToolTip": "zad6\\racuni.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYBAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAMsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-11-13T18:32:50.179Z"
+              "WhenOpened": "2025-11-13T18:32:50.179Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -88,7 +92,7 @@
               "RelativeDocumentMoniker": "zad6\\zad6.c",
               "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad6\\zad6\\zad6\\zad6.c",
               "RelativeToolTip": "zad6\\zad6.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-11-13T18:32:15.853Z",
               "EditorCaption": ""

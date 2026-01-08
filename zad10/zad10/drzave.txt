@@ -1,0 +1,5 @@
+Francuska francuska.txt
+Hrvatska hrvatska.txt
+Italija italija.txt
+Njemacka njemacka.txt
+Spanjolska spanjolska.txt

@@ -64,5 +64,5 @@ int freeCountryTree(countryTreePos root);
 
 int loadData(countryListPos headList, countryTreePos* rootTree);
 
-int runMenu(countryListPos headList);
+int runMenu(countryListPos headList, countryTreePos rootTree);
 int deleteAll(countryListPos headList, countryTreePos rootTree);

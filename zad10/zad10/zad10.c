@@ -69,7 +69,7 @@ int main() {
 	}
 	printCountryList(headList);
 	printCountryTree(rootTree);
-	runMenu(headList);
+	runMenu(headList, rootTree);
 	deleteAll(headList, rootTree);
 	return 0;
 }

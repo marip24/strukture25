@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\11zad\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA9497DA-7A6F-476C-83E3-22753031B5D6}|11zad\\11zad.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\11zad\\11zad\\load.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DA9497DA-7A6F-476C-83E3-22753031B5D6}|11zad\\11zad.vcxproj|solutionrelative:11zad\\load.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DA9497DA-7A6F-476C-83E3-22753031B5D6}|11zad\\11zad.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\11zad\\11zad\\11zad.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DA9497DA-7A6F-476C-83E3-22753031B5D6}|11zad\\11zad.vcxproj|solutionrelative:11zad\\11zad.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA9497DA-7A6F-476C-83E3-22753031B5D6}|11zad\\11zad.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\11zad\\11zad\\load.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA9497DA-7A6F-476C-83E3-22753031B5D6}|11zad\\11zad.vcxproj|solutionrelative:11zad\\load.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA9497DA-7A6F-476C-83E3-22753031B5D6}|11zad\\11zad.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\11zad\\11zad\\hash.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "load.c",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\11zad\\11zad\\load.c",
               "RelativeDocumentMoniker": "11zad\\load.c",
@@ -55,8 +55,7 @@
               "RelativeToolTip": "11zad\\cityTree.c",
               "ViewState": "AgIAABYAAAAAAAAAAAAuwCQAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-01-11T16:44:44.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T16:44:44.699Z"
             },
             {
               "$type": "Document",
@@ -68,18 +67,17 @@
               "RelativeToolTip": "11zad\\hash.c",
               "ViewState": "AgIAAC4AAAAAAAAAAAAuwEQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-01-11T16:44:30.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T16:44:30.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "11zad.c",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\11zad\\11zad\\11zad.c",
               "RelativeDocumentMoniker": "11zad\\11zad.c",
               "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\11zad\\11zad\\11zad.c",
               "RelativeToolTip": "11zad\\11zad.c",
-              "ViewState": "AgIAACIAAAAAAAAAAAAuwDoAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-01-08T17:50:10.513Z",
               "EditorCaption": ""
@@ -94,8 +92,7 @@
               "RelativeToolTip": "11zad\\structures.h",
               "ViewState": "AgIAABgAAAAAAAAAAAAuwCsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-11T16:43:28.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T16:43:28.94Z"
             }
           ]
         }

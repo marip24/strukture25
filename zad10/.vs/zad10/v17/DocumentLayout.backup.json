@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{203CBB94-0F32-4477-B679-0675E899DD85}|zad10\\zad10.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\cityList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{203CBB94-0F32-4477-B679-0675E899DD85}|zad10\\zad10.vcxproj|solutionrelative:zad10\\cityList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{203CBB94-0F32-4477-B679-0675E899DD85}|zad10\\zad10.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\zad10.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{203CBB94-0F32-4477-B679-0675E899DD85}|zad10\\zad10.vcxproj|solutionrelative:zad10\\zad10.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{203CBB94-0F32-4477-B679-0675E899DD85}|zad10\\zad10.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\cityTree.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{203CBB94-0F32-4477-B679-0675E899DD85}|zad10\\zad10.vcxproj|solutionrelative:zad10\\cityTree.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{203CBB94-0F32-4477-B679-0675E899DD85}|zad10\\zad10.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\cityList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{203CBB94-0F32-4477-B679-0675E899DD85}|zad10\\zad10.vcxproj|solutionrelative:zad10\\cityList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,51 +46,12 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "load.c",
-              "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\load.c",
-              "RelativeDocumentMoniker": "zad10\\load.c",
-              "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\load.c",
-              "RelativeToolTip": "zad10\\load.c",
-              "ViewState": "AgIAABYAAAAAAAAAAAAqwDIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-01-04T17:43:47.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "menu.c",
-              "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\menu.c",
-              "RelativeDocumentMoniker": "zad10\\menu.c",
-              "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\menu.c*",
-              "RelativeToolTip": "zad10\\menu.c*",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-01-04T17:43:57.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "structures.h",
-              "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\structures.h",
-              "RelativeDocumentMoniker": "zad10\\structures.h",
-              "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\structures.h*",
-              "RelativeToolTip": "zad10\\structures.h*",
-              "ViewState": "AgIAACcAAAAAAAAAAAAqwEIAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-04T17:20:44.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "zad10.c",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\zad10.c",
               "RelativeDocumentMoniker": "zad10\\zad10.c",
-              "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\zad10.c*",
-              "RelativeToolTip": "zad10\\zad10.c*",
+              "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\zad10.c",
+              "RelativeToolTip": "zad10\\zad10.c",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAEkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-12-18T17:42:46.359Z",
@@ -98,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "countryTree.c",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\countryTree.c",
               "RelativeDocumentMoniker": "zad10\\countryTree.c",
@@ -111,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "countryList.c",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\countryList.c",
               "RelativeDocumentMoniker": "zad10\\countryList.c",
@@ -124,7 +85,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "cityList.c",
+              "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\cityList.c",
+              "RelativeDocumentMoniker": "zad10\\cityList.c",
+              "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\cityList.c",
+              "RelativeToolTip": "zad10\\cityList.c",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAnwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-04T17:23:17.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "structures.h",
+              "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\structures.h",
+              "RelativeDocumentMoniker": "zad10\\structures.h",
+              "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\structures.h",
+              "RelativeToolTip": "zad10\\structures.h",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwEIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-04T17:20:44.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "menu.c",
+              "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\menu.c",
+              "RelativeDocumentMoniker": "zad10\\menu.c",
+              "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\menu.c",
+              "RelativeToolTip": "zad10\\menu.c",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-04T17:43:57.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "load.c",
+              "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\load.c",
+              "RelativeDocumentMoniker": "zad10\\load.c",
+              "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\load.c",
+              "RelativeToolTip": "zad10\\load.c",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-04T17:43:47.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "cityTree.c",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\cityTree.c",
               "RelativeDocumentMoniker": "zad10\\cityTree.c",
@@ -133,19 +146,6 @@
               "ViewState": "AgIAABwAAAAAAAAAAAAqwDgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-01-04T17:22:10.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "cityList.c",
-              "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\cityList.c",
-              "RelativeDocumentMoniker": "zad10\\cityList.c",
-              "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad10\\zad10\\cityList.c",
-              "RelativeToolTip": "zad10\\cityList.c",
-              "ViewState": "AgIAACAAAAAAAAAAAAAqwDwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-01-04T17:23:17.642Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,7 @@
+Pariz 2138551
+Marseille 870731
+Strasbourg 274845
+Bordeaux 260958
+Lyon 522969
+Nice 342669
+Toulouse 493465

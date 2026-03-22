@@ -32,27 +32,22 @@ Person* clean(Person*);
 
 int main() {
 	Person Head = { .name = "",.surname = "",.birthYear = 0, .next = NULL };
-	printf("\nunesite 4 osobe: ");
-	printf("\nosoba br 1.:");
-	Person* P1 = insert();
-	Head.next = P1;
+	char choice;
+	Person* nova = NULL;
+	do {
+		printf("\nunos nove osobe:\n");
+		nova = insert();
+		if (Head.next == NULL)
+			Head.next = nova;
+		else
+			End(Head.next, nova);
+		printf("\nzelite li unijeti jos osoba? (d-da/n-ne): ");
+		scanf(" %c", &choice);
+	} while (choice == 'd');
 
-	printf("\nosoba br 2.:");
-	Person* P2 = insert();
-	End(Head.next, P2);
-
-	printf("\nosoba br 3.:");
-	Person* P3 = insert();
-	End(Head.next, P3);
-
-	printf("\nosoba br 4.:");
-	Person* P4 = insert();
-	End(Head.next, P4);
-	Print(Head.next);
-	
 	char findSurname[50];
 	printf("\nUpisite prezime koje zelite naci: ");
-	scanf(" %s", &findSurname);
+	scanf(" %s", findSurname);
 	Person* Found = Find(Head.next, findSurname);
 	if (Found)
 		printf("\ntrazena osoba je: %s %s %d", Found->name, Found->surname, Found->birthYear);
@@ -61,7 +56,7 @@ int main() {
 
 	char deleSurname[50];
 	printf("\nupisite prezime koje zelite izbrisati: ");
-	scanf(" %s", &deleSurname);
+	scanf(" %s", deleSurname);
 	Head.next = deleteSurname(Head.next, deleSurname);
 
 	Print(Head.next);
@@ -77,7 +72,7 @@ Person* insert(){
 		printf("\ngreska pri alokaciji memorije.");
 		return NULL;
 	}
-	printf("\nunesi ima: ");
+	printf("\nunesi ime: ");
 	scanf(" %s", new->name);
 	printf("\nunesi prezime: ");
 	scanf(" %s", new->surname);

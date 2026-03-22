@@ -19,6 +19,7 @@ typedef struct {
 int prebroji(const char*);
 int ucitavanje(const char*, stud*, int);
 void ispis(stud*, int);
+
 int main() {
 	const char* zadatak1 = "zad1.txt";
 	int brstudenata = prebroji(zadatak1);

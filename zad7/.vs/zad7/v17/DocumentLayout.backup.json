@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4DDEED6-DDDB-4E9E-9ADA-33F46E2D7473}|zad7\\zad7.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\options.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C4DDEED6-DDDB-4E9E-9ADA-33F46E2D7473}|zad7\\zad7.vcxproj|solutionrelative:zad7\\options.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C4DDEED6-DDDB-4E9E-9ADA-33F46E2D7473}|zad7\\zad7.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\zad7.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C4DDEED6-DDDB-4E9E-9ADA-33F46E2D7473}|zad7\\zad7.vcxproj|solutionrelative:zad7\\zad7.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DDEED6-DDDB-4E9E-9ADA-33F46E2D7473}|zad7\\zad7.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C4DDEED6-DDDB-4E9E-9ADA-33F46E2D7473}|zad7\\zad7.vcxproj|solutionrelative:zad7\\util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DDEED6-DDDB-4E9E-9ADA-33F46E2D7473}|zad7\\zad7.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\options.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C4DDEED6-DDDB-4E9E-9ADA-33F46E2D7473}|zad7\\zad7.vcxproj|solutionrelative:zad7\\options.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4DDEED6-DDDB-4E9E-9ADA-33F46E2D7473}|zad7\\zad7.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\commands.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C4DDEED6-DDDB-4E9E-9ADA-33F46E2D7473}|zad7\\zad7.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\util.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C4DDEED6-DDDB-4E9E-9ADA-33F46E2D7473}|zad7\\zad7.vcxproj|solutionrelative:zad7\\util.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4DDEED6-DDDB-4E9E-9ADA-33F46E2D7473}|zad7\\zad7.vcxproj|C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C4DDEED6-DDDB-4E9E-9ADA-33F46E2D7473}|zad7\\zad7.vcxproj|solutionrelative:zad7\\util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "commands.h",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\commands.h",
               "RelativeDocumentMoniker": "zad7\\commands.h",
@@ -71,12 +71,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "commands.c",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\commands.c",
               "RelativeDocumentMoniker": "zad7\\commands.c",
-              "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\commands.c*",
-              "RelativeToolTip": "zad7\\commands.c*",
+              "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\commands.c",
+              "RelativeToolTip": "zad7\\commands.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-12-10T19:10:44.086Z",
@@ -84,12 +84,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "zad7.c",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\zad7.c",
               "RelativeDocumentMoniker": "zad7\\zad7.c",
-              "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\zad7.c*",
-              "RelativeToolTip": "zad7\\zad7.c*",
+              "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\zad7.c",
+              "RelativeToolTip": "zad7\\zad7.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-12-04T16:21:37.098Z",
@@ -97,12 +97,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "options.c",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\options.c",
               "RelativeDocumentMoniker": "zad7\\options.c",
-              "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\options.c*",
-              "RelativeToolTip": "zad7\\options.c*",
+              "ToolTip": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\options.c",
+              "RelativeToolTip": "zad7\\options.c",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-12-10T20:53:27.189Z",
@@ -110,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "directory.c",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\directory.c",
               "RelativeDocumentMoniker": "zad7\\directory.c",
@@ -123,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "directory.h",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\directory.h",
               "RelativeDocumentMoniker": "zad7\\directory.h",
@@ -136,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "options.h",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\options.h",
               "RelativeDocumentMoniker": "zad7\\options.h",
@@ -149,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "stack.c",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\stack.c",
               "RelativeDocumentMoniker": "zad7\\stack.c",
@@ -162,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "stack.h",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\stack.h",
               "RelativeDocumentMoniker": "zad7\\stack.h",
@@ -175,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "util.c",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\util.c",
               "RelativeDocumentMoniker": "zad7\\util.c",
@@ -188,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "util.h",
               "DocumentMoniker": "C:\\Users\\Mari\\OneDrive - CARNET\\Desktop\\strukture25\\zad7\\zad7\\util.h",
               "RelativeDocumentMoniker": "zad7\\util.h",

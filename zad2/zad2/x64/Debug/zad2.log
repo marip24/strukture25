@@ -1,2 +1,2 @@
 ﻿  zad2.c
-  zad2.vcxproj -> C:\Users\Mari\OneDrive - CARNET\Desktop\strukture25\zad2\x64\Debug\zad2.exe
+C:\Users\Mari\OneDrive - CARNET\Desktop\strukture25\zad2\zad2\zad2.c(164,1): error C2471: cannot update program database 'C:\Users\Mari\OneDrive - CARNET\Desktop\strukture25\zad2\zad2\x64\Debug\vc143.idb'

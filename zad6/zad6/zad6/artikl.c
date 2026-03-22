@@ -21,6 +21,7 @@ int sortedArticle(articleList* list, Articles fresh) {
 		list->First = fresh;
 		return 0;
 	}
+
 	Articles p = list->First;
 	while (p->Next && strcmp(p->Next->sort, fresh->sort) < 0) {
 		p = p->Next;

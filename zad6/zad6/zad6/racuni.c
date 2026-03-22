@@ -51,6 +51,7 @@ int sortBill(billList* list, Bill fresh) {
 		return 0;
 	}
 	Bill p = list->First;
+
 	while (p->Next && compareDates(p->Next->date, fresh->date) < 0) {
 		p = p->Next;
 	}

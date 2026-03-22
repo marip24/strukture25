@@ -1,7 +1,7 @@
 2025-07-09
 ulje 3 2.20
 brasno 2 0.80
-pivo 4 1.30
+pivo 5 1.30
 pasta 1 2.80
 sampon 1 4.30
 jogurt 3 0.75

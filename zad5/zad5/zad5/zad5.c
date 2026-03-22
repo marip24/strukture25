@@ -19,7 +19,6 @@ double operation(double, double, char);
 double calculatePostfix(Position, char*);
 
 int main() {
-
 	postfix Head = { .number = 0, .next = NULL };
 	char fileName[] = "zad5.txt";
 	double result;

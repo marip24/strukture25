@@ -11,7 +11,6 @@ artikl u odreðenom vremenskom razdoblju i u kojoj je kolièini isti kupljen.
 #include "artikl.h"
 
 int main() {
-
 	billList* list = listForBills();
 	FILE* fp = fopen("racuni.txt", "r");
 	if (!fp) {

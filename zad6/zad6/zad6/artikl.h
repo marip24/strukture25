@@ -5,7 +5,6 @@
 #include <stdlib.h>
 
 typedef struct Articles* Articles;
-
 struct Articles {
 	char sort[61];
 	int amount;

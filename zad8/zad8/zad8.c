@@ -1,6 +1,6 @@
 /*8. Napisati program koji omoguæava rad s binarnim stablom pretraživanja. Treba
 omoguæiti unošenje novog elementa u stablo, ispis elemenata (inorder, preorder, postorder i
-level order), brisanje i pronalaženje nekog elementa.*/
+level order), brisanje i pronalaženje nekog elementa. */
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
@@ -32,7 +32,7 @@ int main() {
 	int choice = 1;
 	int value;
 	while (choice != 0) {
-		printf("\n-----IZBORNIK-----\n");
+		printf("\n------IZBORNIK------\n");
 		printf("\n1 - unos elementa\n");
 		printf("\n2 - inorder ispis\n");
 		printf("\n3 - preorder ispis\n");

@@ -13,11 +13,11 @@ cityListPos createCityList(char* name, int population) {
 
 int insertCityListSorted(cityListPos head, cityListPos newCity) {
 	if (head == NULL) {
-		printf("\ngreska, lista gradova je null\n");
+		printf("\ngreska lista gradova je null\n");
 		return -1;
 	}
 	if (newCity == NULL) {
-		printf("\ngreska, novi grad je null\n");
+		printf("\ngreska novi grad je null\n");
 		return -1;
 	}
 	cityListPos p;

@@ -65,7 +65,7 @@ int printHash(hashTablePos table) {
 		countryPos p;
 		p = table->list[i];
 		while (p) {
-			printf("  %s \n", p->name);
+			printf("  %s\n", p->name);
 			printCityTree(p->root,-1);
 			p = p->next;
 		}

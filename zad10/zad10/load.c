@@ -9,7 +9,7 @@ int loadData(countryListPos headList, countryTreePos* rootTree) {
 		countryListPos newCountry;
 		newCountry = createCountryList(country);
 		if (!newCountry) {
-			printf("\ndatoteka %s se ne mmoze otvoriti\n", filename);
+			printf("\ndatoteka %s se ne moze otvoriti\n", filename);
 			fclose(file);
 			return -1;
 		}
@@ -22,11 +22,11 @@ int loadData(countryListPos headList, countryTreePos* rootTree) {
 		countryTreePos foundTree;
 		foundTree = findCountryTree(*rootTree, country);
 		if (!foundTree) {
-			printf("\ngreska, drzava nije pronadena u stablu\n");
+			printf("\ngreska drzava nije pronadena u stablu\n");
 			continue;
 		}
 		if (foundTree->head==NULL) {
-			printf("\ngreska, lizsta gradova za drzavu %s nije inicijalizirana\n", country);
+			printf("\ngreska lista gradova za drzavu %s nije inicijalizirana\n", country);
 			continue;
 		}
 		FILE* cityFile = fopen(filename, "r");

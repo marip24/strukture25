@@ -13,6 +13,8 @@ countryTreePos createCountryTree(char* name) {
 		free(newCountry);
 		return NULL;
 	}
+	newCountry->head->name[0] = '\0';
+	newCountry->head->population = 0;
 	newCountry->head->next = NULL;
 	return newCountry;
 }

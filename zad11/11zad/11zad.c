@@ -18,9 +18,9 @@ int main() {
 	printHash(table);
 	char name[MAX_NAME];
 	int limit;
-	printf("\nunesi drzavu: ");
+	printf("\nunesite drzavu: ");
 	scanf(" %s", name);
-	printf("\nunesi limit populacije: ");
+	printf("\nunesite limit populacije: ");
 	scanf("%d", &limit);
 	countryPos found;
 	found = findCountry(table, name);

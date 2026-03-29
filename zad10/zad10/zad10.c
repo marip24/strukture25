@@ -8,7 +8,7 @@ b) Potrebno je formirati stablo država sortirano po nazivu. Svaki èvor stabla sa
 listu gradova sortiranu po broju stanovnika, zatim po nazivu grada.
 Nakon formiranja podataka potrebno je ispisati države i gradove te omoguæiti korisniku putem
 tastature pretragu gradova odreðene države koji imaju broj stanovnika veæi od unosa na
-tastaturi.*/
+tastaturi. */
 
 #include "structures.h"
 

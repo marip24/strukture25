@@ -7,9 +7,9 @@ int runMenu(countryListPos headList, countryTreePos rootTree) {
 	printf("\n2-pretraga pod b");
 	printf("\nodabir: ");
 	scanf("%d", &choice);
-	printf("\nunesi drzavu: ");
+	printf("\nunesite drzavu: ");
 	scanf(" %99s", country);
-	printf("\nunesi broj stanovnika: ");
+	printf("\nunesite broj stanovnika: ");
 	scanf("%d", &limit);
 	if (choice == 1) {
 		countryListPos found;
@@ -18,7 +18,7 @@ int runMenu(countryListPos headList, countryTreePos rootTree) {
 			printf("\ndrzava ne postoji\n");
 			return -1;
 		}
-		printf("\gradovi u %s :\n", country);
+		printf("\ngradovi u %s :\n", country);
 		searchCityTree(found->root, limit);
 	}
 	else if (choice == 2) {
@@ -28,7 +28,7 @@ int runMenu(countryListPos headList, countryTreePos rootTree) {
 			printf("\ndrzava ne postoji\n");
 			return -1;
 		}
-		printf("\gradovi u %s :\n", country);
+		printf("\gradovi u %s:\n", country);
 		searchCityList(found->head, limit);
 	}
 	else

@@ -36,20 +36,6 @@ struct countryTree {
 	cityListPos head;
 };
 
-
-countryListPos createCountryList(char* name);
-int insertCountryListSorted(countryListPos head, countryListPos newCountry);
-countryListPos findCountryList(countryListPos head, char* name);
-int printCountryList(countryListPos head);
-int freeCountryList(countryListPos head);
-
-
-cityTreePos createCityTree(char* name, int population);
-cityTreePos insertCityTree(cityTreePos root, char* name, int population);
-int printCityTree(cityTreePos root);
-int searchCityTree(cityTreePos root, int limit);
-int freeCityTree(cityTreePos root);
-
 countryListPos createCountryList(char* name);
 int insertCountryListSorted(countryListPos head, countryListPos newCountry);
 countryListPos findCountryList(countryListPos head, char* name);

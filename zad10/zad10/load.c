@@ -25,7 +25,7 @@ int loadData(countryListPos headList, countryTreePos* rootTree) {
 			printf("\ngreska drzava nije pronadena u stablu\n");
 			continue;
 		}
-		if (foundTree->head==NULL) {
+		if (foundTree->head == NULL) {
 			printf("\ngreska lista gradova za drzavu %s nije inicijalizirana\n", country);
 			continue;
 		}

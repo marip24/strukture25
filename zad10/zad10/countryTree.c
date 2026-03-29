@@ -3,7 +3,7 @@
 countryTreePos createCountryTree(char* name) {
 	countryTreePos newCountry;
 	newCountry = malloc(sizeof(struct countryTree));
-	if (!newCountry) 
+	if (!newCountry)
 		return NULL;
 	strcpy(newCountry->name, name);
 	newCountry->left = NULL;

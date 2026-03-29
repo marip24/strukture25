@@ -1,7 +1,21 @@
-﻿  load.c
+﻿  cityList.c
+  cityTree.c
+  countryList.c
+C:\Users\Mari\OneDrive - CARNET\Desktop\strukture25\zad10\zad10\countryList.c(42,3): warning C4013: 'printCityTree' undefined; assuming extern returning int
+C:\Users\Mari\OneDrive - CARNET\Desktop\strukture25\zad10\zad10\countryList.c(55,3): warning C4013: 'freeCityTree' undefined; assuming extern returning int
+  countryTree.c
+C:\Users\Mari\OneDrive - CARNET\Desktop\strukture25\zad10\zad10\countryTree.c(46,2): warning C4013: 'printCityList' undefined; assuming extern returning int
+C:\Users\Mari\OneDrive - CARNET\Desktop\strukture25\zad10\zad10\countryTree.c(57,2): warning C4013: 'freeCityList' undefined; assuming extern returning int
+  load.c
 C:\Users\Mari\OneDrive - CARNET\Desktop\strukture25\zad10\zad10\load.c(40,23): warning C4013: 'insertCityTree' undefined; assuming extern returning int
 C:\Users\Mari\OneDrive - CARNET\Desktop\strukture25\zad10\zad10\load.c(40,21): warning C4047: '=': 'cityTreePos' differs in levels of indirection from 'int'
 C:\Users\Mari\OneDrive - CARNET\Desktop\strukture25\zad10\zad10\load.c(42,14): warning C4013: 'createCityList' undefined; assuming extern returning int
 C:\Users\Mari\OneDrive - CARNET\Desktop\strukture25\zad10\zad10\load.c(42,12): warning C4047: '=': 'cityListPos' differs in levels of indirection from 'int'
 C:\Users\Mari\OneDrive - CARNET\Desktop\strukture25\zad10\zad10\load.c(45,4): warning C4013: 'insertCityListSorted' undefined; assuming extern returning int
+  menu.c
+C:\Users\Mari\OneDrive - CARNET\Desktop\strukture25\zad10\zad10\menu.c(22,3): warning C4013: 'searchCityTree' undefined; assuming extern returning int
+C:\Users\Mari\OneDrive - CARNET\Desktop\strukture25\zad10\zad10\menu.c(31,10): warning C4129: 'g': unrecognized character escape sequence
+C:\Users\Mari\OneDrive - CARNET\Desktop\strukture25\zad10\zad10\menu.c(32,3): warning C4013: 'searchCityList' undefined; assuming extern returning int
+  zad10.c
+  Generating Code...
   zad10.vcxproj -> C:\Users\Mari\OneDrive - CARNET\Desktop\strukture25\zad10\x64\Debug\zad10.exe

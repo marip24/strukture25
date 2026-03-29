@@ -9,12 +9,12 @@ slici Slika 2.
 c) Prepraviti program na naèin da umjesto predefiniranog cjelobrojnog polja korištenjem
 funkcije rand() generira sluèajne brojeve u rasponu <10, 90>. Takoðer, potrebno je
 upisati u datoteku sve brojeve u inorder prolasku nakon korištenja funkcije iz a), zatim b)
-dijela zadatka.*/
+dijela zadatka. */
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
-#include<time.h>
+#include <time.h>
 
 typedef struct tree* treePos;
 
@@ -30,7 +30,6 @@ int inorder(treePos);
 int inorderFile(treePos, FILE*);
 treePos freeTree(treePos);
 
-
 int main() {
 	treePos root = NULL;
 	int value,n,i;
@@ -45,13 +44,13 @@ int main() {
 		root = insertTree(root, arr[i]);
 	printf("\ninorder prije replace: ");
 	inorder(root);
-	fprintf(fp, "\ninorder prije replace: ");
+	fprintf(fp, "\ninorder iz file-a prije replace: ");
 	inorderFile(root, fp);
 
 	replace(root);
 	printf("\ninorder izad replace: ");
 	inorder(root);
-	fprintf(fp, "\ninorder izad replace: ");
+	fprintf(fp, "\ninorder iz file-a  izad replace: ");
 	inorderFile(root, fp);
 	root = freeTree(root);
 

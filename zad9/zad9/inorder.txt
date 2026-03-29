@@ -1,4 +1,4 @@
 
-inorder prije replace: 11 8 7 7 5 4 3 2 2 1 
-inorder izad replace: 0 18 0 26 42 5 0 3 48 0 
-inorder random stabla: 87 0 249 0 578 0 190 29 0 96 0 25 
+inorder iz file-a prije replace: 11 8 7 7 5 4 3 2 2 1 
+inorder iz file-a  izad replace: 0 18 0 26 42 5 0 3 48 0 
+inorder random stabla: 0 82 448 76 0 154 224 729 41 0 120 0 161 191 0 

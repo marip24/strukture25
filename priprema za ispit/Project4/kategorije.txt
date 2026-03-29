@@ -1,0 +1,4 @@
+voce 5 20
+povrce 3 15
+mlijecni 10 50
+slatkisi 2 25

@@ -1,0 +1,10 @@
+10 Split
+3 Zagreb
+1 Varazdin
+9 Solin
+4 Koprivnica
+6 Rijeka
+8 Dubrovnik
+2 Sibenik
+7 Zadar
+5 Pula

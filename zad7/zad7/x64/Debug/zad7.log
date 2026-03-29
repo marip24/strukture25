@@ -1,5 +1,9 @@
 ﻿  commands.c
+  directory.c
   options.c
+  stack.c
+  util.c
   zad7.c
   Generating Code...
+C:\Users\Mari\OneDrive - CARNET\Desktop\strukture25\zad7\zad7\util.c(34,1): warning C4715: 'dir': not all control paths return a value
   zad7.vcxproj -> C:\Users\Mari\OneDrive - CARNET\Desktop\strukture25\zad7\x64\Debug\zad7.exe

@@ -1,7 +1,7 @@
 /*7. Napisati program koji pomoæu vezanih listi(stabala) predstavlja strukturu direktorija.
 Omoguæiti unos novih direktorija i pod - direktorija, ispis sadržaja direktorija i
 povratak u prethodni direktorij.Toènije program treba preko menija simulirati
-korištenje DOS naredbi : 1 - "md", 2 - "cd dir", 3 - "cd..", 4 - "dir" i 5 – izlaz.*/
+korištenje DOS naredbi : 1 - "md", 2 - "cd dir", 3 - "cd..", 4 - "dir" i 5 – izlaz. */
 
 #include "directory.h"
 #include "stack.h"
